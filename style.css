@@ -15,13 +15,6 @@ p {
     font-size: 16px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
 .notes-1 {
     height: 400px;
     width: 200px;
@@ -31,3 +24,22 @@ p {
 }
 
 
+.neumorphism-1{
+    height: 50px;
+    width: 50px;
+    background: #dde1e7;
+    border-radius: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+.neumorphism-2{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    background: #dde1e7;
+    border-radius: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.cover-heading {
+    padding: 15px;
+}

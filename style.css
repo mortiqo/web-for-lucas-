@@ -8,11 +8,20 @@ h1,h2,h3,h4,h5,h6, span {
     color: #242424;
     text-align: center;
     line-height: 1.25;
+    margin: 0px;
 }
 
 p {
     line-height: 1.5;
     font-size: 16px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+img{
+    width: 100%
 }
 
 .container {
@@ -22,12 +31,105 @@ p {
     align-items: center;
     padding: 30px;
 }
+
 .notes-1 {
     height: 400px;
     width: 200px;
     background: #00d5d6;
     box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
+.main-page{
+    display: flex;
+    flex-direction: column;
+    width: 75vw; 
+    margin: auto;
+}
 
+.header{
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.utstyr-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px;
+    
+}
+
+.utstyr-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+
+.img-container{
+    margin: auto;   
+    margin-top: 0px;   
+    height: 200px;
+}
+
+.text-container{
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #00d5d6;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
+.utstyr-header{
+    font-size: 5vw;
+}
+
+.utstyr-img{
+    max-height: 100%;
+    padding: 5px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.utstyr-element-span-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    grid-column: span 2;
+}
+
+.enhet-list{
+    margin:auto auto;
+}
+
+.enhet-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00d5d6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.enhet-img{
+    margin: 20px;   
+    max-width: 250px;
+    border-radius: 30px;
+}
+
+.enhet-info{
+    margin: 20px;
+}
+
+.enhet-notes{
+    margin: 20px;
+}

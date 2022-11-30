@@ -20,10 +20,6 @@ a:hover{
     text-decoration: none;
 }
 
-img{
-    width: 100%
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -120,13 +116,15 @@ img{
     margin-bottom: 50px;
     border-radius: 30px;
     padding: 20px;
+    height: 350px;
     box-shadow:  15px 15px 30px #c4c4c4,
              -15px -15px 30px #ffffff;
 }
 
 .enhet-img-box{
-    margin: 20px;   
-    max-width: 27%;
+    margin: 20px;  
+    max-height: 325px;
+    max-width: 40%;
     border-radius: 30px;
     box-shadow: inset 9px 9px 18px #e0e0e0,
             inset -9px -9px 18px #ffffff;
@@ -134,20 +132,74 @@ img{
 
 .enhet-img{
     border-radius: 30px;
+    max-height: 325px;
+    width: 100%;
 }
 
 .enhet-info{
     margin: 20px;
     width: 30%;
+    padding: 0px 30px;
+}
+
+.enhet-stats{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.enhet-stock{
+    margin: 10px;
+    max-height: 50%;
 }
 
 .enhet-notes{
-    margin: 20px;
-    width: 30%;
+    margin: 10px;
+    max-height: 50%;
 }
 
 @media (max-width: 1340px){
+    p, li{
+        font-size: 10px;
+    }
+
     .enhet-list{
         width: 700px;
+        margin: auto;
+    }
+
+    .enhet-header{
+        font-size: 18px;
+    }
+
+    .enhet-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #00d5d6;
+        margin-bottom: 50px;
+        border-radius: 25px;
+        padding: 20px;
+        height: 250px;
+        box-shadow:  15px 15px 30px #c4c4c4,
+                 -15px -15px 30px #ffffff;
+    }
+
+    .enhet-img{
+        border-radius: 20px;
+    }
+
+    .enhet-info{
+        margin: 10px;
+        width: 40%;
+        padding: 0px 20px;
+    }
+
+    .enhet-notes{
+        margin: 10px;
+        width: 20%;
     }
 }

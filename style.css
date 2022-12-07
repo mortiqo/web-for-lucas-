@@ -15,8 +15,6 @@ p {
     font-size: 16px;
 }
 
-<<<<<<< HEAD
-=======
 a:hover{
     text-decoration: none;
 }
@@ -29,7 +27,6 @@ a:hover{
     padding: 30px;
 }
 
->>>>>>> 74ab44eb088ce1c094877c73878f0a0ccb1ff620
 .notes-1 {
     height: 400px;
     width: 200px;
@@ -37,7 +34,6 @@ a:hover{
     box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
     border-radius: 5px;
 }
-
 
 .neumorphism-1{
     height: 50px;
@@ -58,8 +54,20 @@ a:hover{
 .cover-heading {
     padding: 15px;
 }
-<<<<<<< HEAD
-=======
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    width: 75vw; 
+    margin: auto;
+}
+
+.header{
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    margin-bottom: 40px;
+}
 
 .utstyr-container{
     display: grid;
@@ -75,6 +83,8 @@ a:hover{
     justify-content: center;
     border-radius: 30px;
     border: 1px solid #000000;
+    box-shadow:  15px 15px 30px #c4c4c4,
+             -15px -15px 30px #ffffff;
 }
 
 .img-container{
@@ -199,4 +209,4 @@ a:hover{
     text-align: center;
 }
 
->>>>>>> 74ab44eb088ce1c094877c73878f0a0ccb1ff620
+

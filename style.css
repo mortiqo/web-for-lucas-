@@ -15,6 +15,21 @@ p {
     font-size: 16px;
 }
 
+<<<<<<< HEAD
+=======
+a:hover{
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+>>>>>>> 74ab44eb088ce1c094877c73878f0a0ccb1ff620
 .notes-1 {
     height: 400px;
     width: 200px;
@@ -43,3 +58,145 @@ p {
 .cover-heading {
     padding: 15px;
 }
+<<<<<<< HEAD
+=======
+
+.utstyr-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px;
+    
+}
+
+.utstyr-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+
+.img-container{
+    margin: auto;   
+    margin-top: 0px;   
+    height: 200px;
+}
+
+.text-container{
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #00d5d6;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
+.utstyr-header{
+    font-size: 5vw;
+}
+
+.utstyr-img{
+    max-height: 100%;
+    padding: 5px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.utstyr-element-span-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    grid-column: span 2;
+}
+
+.enhet-list{
+    margin: auto;
+    width: 1100px;
+}
+
+.enhet-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00d5d6;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    height: 375px;
+    width: 100%;
+    box-shadow:  15px 15px 30px #c4c4c4,
+             -15px -15px 30px #ffffff;
+}
+
+.enhet-img-box{
+    margin: 20px;  
+    max-height: 325px;
+    max-width: 40%;
+    border-radius: 30px;
+    box-shadow: inset 9px 9px 18px #e0e0e0,
+            inset -9px -9px 18px #ffffff;
+}
+
+.enhet-img{
+    border-radius: 30px;
+    max-height: 325px;
+    height: 100%;
+}
+
+.enhet-header{
+    margin-bottom: 30px;
+}
+
+.enhet-info{
+    margin: 20px;
+    width: 30%;
+    padding: 0px 30px;
+    font-weight: 600;
+}
+
+.enhet-stats{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.enhet-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    max-height: 50%;
+}
+
+.enhet-stock{
+    margin: 10px;
+    text-align: center;
+    font-weight: 700;
+    width: 50%;
+}
+
+.reserver-button{
+    background-color: #00d5d6;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.reserver-button:hover{
+    background-color: #009b9c;
+}
+
+.enhet-notes{
+    margin: 10px;
+    max-height: 50%;
+    text-align: center;
+}
+
+>>>>>>> 74ab44eb088ce1c094877c73878f0a0ccb1ff620

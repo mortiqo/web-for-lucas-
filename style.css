@@ -160,6 +160,7 @@ a:hover{
 
 .enhet-header{
     margin-bottom: 30px;
+    font-size: 2vw;
 }
 
 .enhet-info{
@@ -209,4 +210,10 @@ a:hover{
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 
+=======
+@media (max-width: 1469px) {
+
+}
+>>>>>>> Stashed changes
